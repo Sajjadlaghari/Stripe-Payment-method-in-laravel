@@ -30,16 +30,6 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'facebook' => [
-        'client_id' => "1106589710288464",
-        'client_secret' => "32148b5bea55806a5ec6179bd216a03a",
-        'redirect' => 'http://localhost:8000/fbres',
-    ],
-    'google' => [
-        'client_id' => env('GOOGLE_CLIENT_ID'),
-        'client_secret' => env('GOOGLE_CLIENT_SECRET'), 
-        'redirect' => env('GOOGLE_REDIRECT')
-    ],
     'stripe' => [
         'secret' => env('STRIPE_SECRET')
     ]
